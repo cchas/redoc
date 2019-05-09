@@ -20,9 +20,14 @@ This is a very simple PHP app that plugin that shows JSON data in an horizontal 
 4. Visit your server in a web browser
 
 
+
 # How it works:
 
-- The index.php file will read the json file. It will then generate links in the menu and the home page to your spec files, 
+- The index.php file will read the json file. It will then generate links in the menu and the home page to your spec files.
+
+- The spec files must be coded with yaml, and they must be in the spec folder.
+
+- It supports splitting your specs across multiple files. You may want to add them in the spec/inc folder, but it is optional.
 
 # Demo
 https://respirainternet.com/redoc/
