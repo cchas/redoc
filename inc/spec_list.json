@@ -1,6 +1,5 @@
 { 
-	"Bancos": { 
-		"cuentas_bancarias": "Cuentas bancarias", 
-		"movimientos_bancarios": "Movimientos" 
-	} 
+	"Pet Store": { 
+		"petstore": "Pet Store" 
+	}
 }
