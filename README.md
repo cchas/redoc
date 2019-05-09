@@ -11,7 +11,7 @@ Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/
 
 # Dependencies:
 - Bootstrap (CSS only)
-- ReDoc: https://github.com/Rebilly/ReDoc (only the standalone script: https://cdn.jsdelivr.net/npm/redoc@2.0.0-alpha.17/bundles/redoc.standalone.js)
+- ReDoc: https://github.com/Rebilly/ReDoc (we only use the standalone script: https://cdn.jsdelivr.net/npm/redoc@2.0.0-alpha.17/bundles/redoc.standalone.js)
 - PHP 5.3+
 - Apache with mod_rewrite module installed
 
@@ -30,7 +30,7 @@ Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/
 
 # How it works:
 
-- The index.php file will read the json file. It will then generate links in the menu and the home page to your spec files.
+- The index.php file will read the spec_list.json file in the inc folder. It will then generate links in the menu and the home page to your spec files.
 
 - When you visit that link, the index.php will get the name of the spec from the url and will render the spec formatted with ReDoc.
 
