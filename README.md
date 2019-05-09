@@ -10,7 +10,7 @@ Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/
 
 
 # Dependencies:
-- Bootstrap (CSS only)
+- Bootstrap 4 (CSS only)
 - ReDoc: https://github.com/Rebilly/ReDoc (we only use the standalone script: https://cdn.jsdelivr.net/npm/redoc@2.0.0-alpha.17/bundles/redoc.standalone.js)
 - PHP 5.3+
 - Apache with mod_rewrite module installed
