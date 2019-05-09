@@ -32,5 +32,7 @@ This is a very simple PHP app that plugin that shows JSON data in an horizontal 
 # Demo
 https://respirainternet.com/redoc/
 
+Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0
+
 
 

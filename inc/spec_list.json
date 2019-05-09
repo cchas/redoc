@@ -1,5 +1,10 @@
 { 
 	"Pet Store": { 
-		"petstore": "Pet Store" 
+		"api_with_examples": "Api with examples",
+		"callback_example": "Callback example",
+		"link_example": "Link example",
+		"petstore": "Pet Store",
+		"petstore_expanded": "Pet Store Expanded",
+		"uspto": "USPTO"  
 	}
 }
