@@ -1,0 +1,37 @@
+/* colores */
+/*
+
+#00687f azul corporativo
+#8bc34a verde
+#fbb36b naranja
+#e15b64 rojo
+
+*/
+
+nav img{ margin: 10px 0; width: 80px; }
+
+nav.bg-dark{
+	background-color: #00687f !important;
+}
+
+nav ul{
+	margin-left: 160px;
+}
+
+.mr-auto {
+  left: auto !important;
+  right: 0px;
+}
+
+div.menu-content{
+	padding-top: 30px;
+}
+
+
+.inicio{
+	margin-top: 30px;
+}
+
+.inicio h2{
+	margin-bottom: 20px;
+}
