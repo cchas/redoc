@@ -1,6 +1,13 @@
-# REDDOC PHP APP - Simple LAMP PHP webapp to show several API documents easily
+# REDDOC PHP Wrapper APP - 
 
-This is a very simple PHP app that plugin that shows JSON data in an horizontal calendar.
+This is a very simple PHP App that makes publishing several related OpenAPI docs in a single website super easy and SEO friendly.
+
+
+# Demo
+https://respirainternet.com/redoc/
+
+Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0
+
 
 # Dependencies:
 - Bootstrap (CSS only)
@@ -15,7 +22,7 @@ This is a very simple PHP app that plugin that shows JSON data in an horizontal 
 
 2. Edit inc/settings.php with your data.
 
-3. Edit spec_list.json with your api files.
+3. Edit spec_list.json with your openapi spec files.
 
 4. Visit your server in a web browser
 
@@ -25,14 +32,11 @@ This is a very simple PHP app that plugin that shows JSON data in an horizontal 
 
 - The index.php file will read the json file. It will then generate links in the menu and the home page to your spec files.
 
+- When you visit that link, the index.php will get the name of the spec from the url and will render the spec formatted with ReDoc.
+
 - The spec files must be coded with yaml, and they must be in the spec folder.
 
-- It supports splitting your specs across multiple files. You may want to add them in the spec/inc folder, but it is optional.
-
-# Demo
-https://respirainternet.com/redoc/
-
-Examples from https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v3.0
+- This webapp supports splitting your specs across multiple yaml files. You may want to add them in the spec/inc folder, but it is entirely optional.
 
 
 
